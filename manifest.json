@@ -8,10 +8,9 @@
     "default_icon": "icon.png"
   },
   "permissions": [
-    "tabs",
-    "activeTab",
-    "notifications",
-    "history"
+    "storage",
+    "history",
+    "tabs"
   ],
   "background": {
     "service_worker": "background.js"
