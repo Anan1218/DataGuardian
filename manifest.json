@@ -1,0 +1,19 @@
+{
+  "name": "Data Guardian",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "notifications",
+    "history"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
